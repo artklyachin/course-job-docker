@@ -23,5 +23,7 @@ ENV GITHUB_HEAD_REF=""
 CMD ["python3", "course-settings/checker/main.py"]
 # CMD ["/bin/bash"]
 
-# docker build -t checker-image .
-# docker run -it checker-image 
+# docker build -t artcosmos/checker-image .
+# docker push artcosmos/checker-image:latest
+
+# docker run -it artcosmos/checker-image 
