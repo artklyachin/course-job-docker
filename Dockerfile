@@ -23,7 +23,9 @@ CMD ["./run.sh"]
 # CMD ["python3", "course-settings/checker/main.py"]
 # CMD ["/bin/bash"]
 
+# Локально:
 # docker build -t artcosmos/checker-image .
 # docker push artcosmos/checker-image:latest
 
-# docker run -it artcosmos/checker-image 
+# В Job:
+# docker run -it artcosmos/checker-image:latest
